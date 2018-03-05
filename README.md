@@ -6,3 +6,5 @@ Arquivos para interação da Disciplina de Linguagem Técnica de Programação -
 > Aula 2 - 22/02/2018
 
 > Aula 3 - 01/03/2018
+
+> Aula 4 - 08/03/2018 - Seminário (Linguagens de Marcação)
