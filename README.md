@@ -11,4 +11,7 @@ Arquivos para interação da Disciplina de Linguagem Técnica de Programação -
 > Aula 4 - 08/03/2018 - Seminário (Linguagens de Marcação)
 ## ALUNOS
 
-@mayronmycael @EricCruz738 @toynsoares @afmartins @Ambrosy @andersoncosta1988
+@mayronmycael @EricCruz738 @toynsoares 
+[@afmartins](https://github.com/afmartins/)
+[@Ambrosy](https://github.com/Ambrosy/)
+[@andersoncosta1988](https://github.com/andersoncosta1988/)
