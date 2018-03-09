@@ -1,3 +1,4 @@
+
 # LTP-FADESA
 Arquivos para interação da Disciplina de Linguagem Técnica de Programação - FADESA
 
@@ -8,3 +9,6 @@ Arquivos para interação da Disciplina de Linguagem Técnica de Programação -
 > Aula 3 - 01/03/2018
 
 > Aula 4 - 08/03/2018 - Seminário (Linguagens de Marcação)
+## ALUNOS
+
+@mayronmycael @EricCruz738 @toynsoares @afmartins @Ambrosy
