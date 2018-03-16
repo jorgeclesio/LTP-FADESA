@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>atividade 0.5</title>
+	<link rel="stylesheet" href="">
+	<style>
+	td{
+		text-align: center;
+	}	
+	</style>
+	
+</head>
+<body>
+	<form >
+	<table border="5px" width="200" height="100px"   align="center">
+			<tr>
+				<td>
+					<input type="text" name="nome" placeholder="Nome" required="required"/></td>
+				<td>
+					<input type="date" name="data_nascimento" required="required" />
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<input type="number" name="CPF" maxlength="11" minlength="3" required="required" placeholder="CPF" />
+					</td>
+				<td><input type="text" name="pai" placeholder="Nome do Pai" />
+				</td>
+			</tr>
+			<tr>
+				<td><input type="email" name="email" title="E-mail" required="required" placeholder="E-mail" /></td>
+				<td>
+				<label for="M" id="1" >M</label>
+				<input type="radio" name="sexo" value="M" id="M"  />
+    			<label for="F" id="2" >F</label>
+    			<input type="radio" name="sexo" value="F" id="F" />
+    			</td>
+			</tr>
+			<tr>
+				<td><select name="naturalidade" required="required" >
+			<option></option>}
+			<option  value="" required="required">Parauapebas</option>
+			<option value="" required="required">Canaã</option>
+			<option value="" required="required">Curionopulis</option>
+			<option value="" required="required">Marabá</option>
+			<option value="" required="required" selected>Itapecuru-Mirim</option>
+			<option value="" required="required">Pindaré-Mirim</option>
+			</select>
+				</td>
+				<td><input type="text" name="endereco" placeholder="Endereço"/></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="mae" required="required" placeholder="Nome da Mae"/></td>
+				<td><textarea name="Obs" placeholder="Escreva seu questionamento...."></textarea>
+				</td>
+			</tr>
+			<tr>
+				
+				<td> <input type="text" name="usuario" title="Usuario" required="required" placeholder="Usuario"/> </td>
+				<td><input type="password" name="senha" title="Senha" required="required" placeholder="Senha"/></td>
+			</tr>
+			<tr>
+				<td><input type="reset" value="limpar"></td>
+				<td><input type="submit" value="Cadastrar"></td>
+			</tr>
+	</table>
+	</form>
+</body>
+</html>
