@@ -19,3 +19,5 @@ Arquivos para interação da Disciplina de Linguagem Técnica de Programação -
 [@afmartins](https://github.com/afmartins/)
 [@Ambrosy](https://github.com/Ambrosy/)
 [@andersoncosta1988](https://github.com/andersoncosta1988/)
+[@lenycio3](https://github.com/lenycio3/)
+[@Maya13sorte](https://github.com/Maya13sorte/)
