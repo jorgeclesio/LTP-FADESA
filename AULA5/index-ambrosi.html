@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang= "pt-br">
+
+<head>
+
+	<title> Aula 5 </title>
+
+	<meta charset ="UTF-8"/>
+	<link href= "style.css" rel="stylesheet" type= "text/css"/>
+</head>
+	<body>
+
+		<form>
+<!--Input cria uma caixa que serve para o usurio inserir caracteres-->
+<!--Required serve para da obrigatoriedade para para um campo-->
+<table border='3px' align= left width= '440px' height='440px'>
+<tr> 
+	 <th>		<input type="text" name="nome" placeholder="Insira seu Nome" required/> </th>
+			<p/>
+	 	
+	 <th>		<input type="date" name="data_nascimento" required/> </th>
+			<p/>
+</tr>
+<tr>
+	 <th> <input type="number" name="cpf"  placeholder="Insira seu CPF" required  maxlength="11"/></th>
+			<p/>
+		
+	 <th> <input type="text" name="pai" placeholder="Insira o Nome do seu Pai"/> </th>
+			<p/>
+</tr>	
+<tr>
+	 <th> <input type="text" name="mae" placeholder="Insira o Nome da sua Mãe"/> </th>
+			<p/>
+	 <th> <input type="text" name="Endereço" placeholder="Insira o Endereço"/> </th>
+</tr>
+
+	 <th> <input type="mail" name="email" placeholder="E-mail"/> </th>
+			<p/>
+	 <th>	
+		<label for="F">F</label> 
+<!--O comando label serve para da um auxilio ao codigo input  para quando o usuario for clicar no nome selecionar a opcao-->
+		<input id="F" type="radio" name="sexo" value="F"/>
+<!--o tipo radio faz uma bolinha de selecao-->
+		<label for="M">M</label> 
+		<input ID="M" type="radio" name="sexo" value="M"/>
+			<p/> 
+	</th>
+</tr>
+
+	 <th> <input type="text" name="usuario" title="Usuário" placeholder="Usuario"/> </th>
+	 <th> <input type="password" name="senha" required/> <!--o tipo password vai criar uma caixa de texto para senhas -->
+	 	<p/>
+	 </th>	
+<tr>	 
+	  <th>	<select name="naturalidade" required/><br>
+<!--o Select cria uma caixa de selecao no qual posso colocar infomacoes com o codigo Option-->	
+			<option></option>
+			<option>Parauapebas</option>
+			<option>Curionopolis</option>
+			<option>Marabá</option>
+			<option>Eldorado dos Carajás</option>
+			<option>Canaã</option>
+		</select>
+	 </th>	
+			<p/>
+
+	 <th> <textarea name="OBS" placeholder="Escreva uma observação aqui..."></textarea> </th>
+		<p/>
+<!--Textarea vai cria uma area com umm tipo bloco de notas onde posso inserir informacoes-->
+</tr>
+<tr>
+		<th> <input type="reset" name="Limpar" title="Clique para limpar"/> </th>
+		<th> <input type="submit" name="Enviar" title="Clique para enviar"/> </th>
+</tr>
+</form>
+
+	</body>
+
+</html>
