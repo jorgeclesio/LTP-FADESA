@@ -11,6 +11,8 @@ Arquivos para interação da Disciplina de Linguagem Técnica de Programação -
 > Aula 4 - 08/03/2018 - Seminário (Linguagens de Marcação)
 
 > Aula 5 - 15/03/2018
+
+> Aula 6 - 22/03/2018
 ## ALUNOS
 
 [@mayronmycael](https://github.com/mayronmycael/) 
