@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Autor: Jorge Clésio -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+li{
+list-style:none;
+}
+
+li ul{
+display:none;
+}
+
+li:hover ul{
+display:block;
+
+}
+
+li:hover ul li ul{
+display:none;
+}
+
+li ul li:hover ul{
+display:block;
+}
+
+</style>
+</head>
+
+<body>
+<ul>
+<li>Menu
+  <ul>
+  <li>Menu 2</li>
+  <li>Menu 3
+      <ul>
+        <li>Menu 3.1</li>
+        <li>Menu 3.2</li>
+      </ul>
+  </li>
+  </ul>
+</li>
+</ul>
+</body>
+</html>
