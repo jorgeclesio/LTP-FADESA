@@ -1,0 +1,52 @@
+
+#tela_login{
+	margin:0 auto;
+	margin-top:20%;
+	padding:10px;
+	width:200px;
+	height:170px;
+	background:#555555;
+	text-align:center;
+	border-radius:20px 0px 20px 0px;
+}
+input{
+	margin:3px;
+	padding:10px;
+}
+#tela_login button{
+	width:100%;
+	margin-top:25px;
+	padding:5px;
+}
+
+#principal{
+	margin:0 auto;
+	width:500px;
+	background:gray;
+}
+#logo{
+	float:left;
+	height:50px;
+	width:100px;
+	background:red;
+}
+
+#pesquisar{
+	float:left;
+	height:50px;
+	width:300px;
+	background:yellow;
+}
+#menu_usuario{
+	float:left;
+	height:50px;
+	width:100px;
+	background:blue;
+}
+
+
+
+
+
+
+
