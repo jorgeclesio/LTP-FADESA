@@ -1,0 +1,34 @@
+#principal{
+	width:500px; /* largura geral */ 
+	background:green;
+	margin:0 auto;
+}
+#cabecalho {
+width: 500px;
+height:50px;
+background:#0000ff;
+color:#FFFFFF;}
+#menu{
+width: 500px;
+height:50px;
+background:#00FF00;
+color:#FFFFFF;
+}
+#lateral{
+width: 100px;
+height:50px;
+background:red;
+color:#FFFFFF;
+float:left;
+}
+#secao{
+width: 300px;
+height:300px;
+background:pink;
+color:#FFFFFF;
+float:left;
+}
+#rodape{
+width: 500px;height:50px;background:black;color:#FFFFFF;
+float:left;
+}
