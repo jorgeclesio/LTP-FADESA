@@ -13,6 +13,11 @@ Arquivos para interação da Disciplina de Linguagem Técnica de Programação -
 > Aula 5 - 15/03/2018
 
 > Aula 6 - 22/03/2018
+
+## Material Teórico de Tópicos Especiais:
+[Aqui](https://github.com/jorgeclesio/LTP-FADESA/tree/master/Refer%C3%AAncia%20TEDS%20-%20T%C3%B3picos%20Especiais%20em%20Desenvolvimento%20de%20Sistemas) 
+
+
 ## ALUNOS
 
 [@mayronmycael](https://github.com/mayronmycael/) 
