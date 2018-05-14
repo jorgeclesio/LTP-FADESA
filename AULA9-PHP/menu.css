@@ -1,0 +1,30 @@
+ol li{
+	background:#000;
+	color:#eeeeee;
+	font-family:tahoma;
+	list-style:none;
+	display:inline-block;
+	margin:0px;
+	padding:10px;
+
+}
+
+ol li:hover {
+	background:#ccc;
+	color:#fff;
+}
+
+li ol {
+	display:none;
+	position:absolute;
+	width:200px;	
+	margin-top:10px;
+}
+
+li:hover > ol{
+	display:table;
+}
+
+ol li ol li{
+display:block;
+}
