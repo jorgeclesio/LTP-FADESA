@@ -6,7 +6,7 @@ id_instituicao INTEGER
 );
 
 CREATE TABLE municipio (
-id INTEGER PRIMARY KEY,
+id INTEGER PRIMARY KEY auto_increment,
 nm_municipio VARCHAR(40),
 cod_mun INTEGER,
 qt_popula VARCHAR(30),
