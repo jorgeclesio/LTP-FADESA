@@ -1,5 +1,5 @@
 CREATE TABLE curso (
-id INTEGER PRIMARY KEY,
+id INTEGER PRIMARY KEY auto_increment,
 nome VARCHAR(30),
 carga_horaria INTEGER,
 id_instituicao INTEGER
