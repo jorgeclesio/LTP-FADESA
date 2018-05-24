@@ -4,4 +4,4 @@ Goolge Maps: Mayron (60%), Mayara (50%), Anderson (100%)
 
 OpenSteet: Antonio (90%), Allison (80%), Igor (50%), Rafael (80%).
 
-Here:  Lenínio (70%), Matheus (60%), Eric (70)
+Here:  Lenínio (70%), Matheus (60%), Eric (70%)
