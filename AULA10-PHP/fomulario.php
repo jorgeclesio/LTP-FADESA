@@ -1,4 +1,4 @@
-<form action="validar.php" method="POST">
+<form action="validar.php" method="POST">  <!-- usando o método POST  e chamando o arquivo validar.php-->
 <table border="">
 <tr> 
 <td>Nome</td><td><input name="nome"></td>
