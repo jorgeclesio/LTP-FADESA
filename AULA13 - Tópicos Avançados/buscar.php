@@ -31,14 +31,10 @@
 
 		</section>
 	</div>
-	
 	<div id="mapas">
 		<section>Mapa 1</section>
 		<section>Mapa 2</section>
 	</div>
 	<?php include 'includes/footer.php' ?>
 </main>
-
-
-
 </body>
