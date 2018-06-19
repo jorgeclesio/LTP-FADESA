@@ -7,7 +7,6 @@
 	<link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-
 	<div id="tela_login">
 		<forM  id="form_login" action="">
 		<input type="text" placeholder="Usuario" required alt="O usuário é obrigatório"/>
