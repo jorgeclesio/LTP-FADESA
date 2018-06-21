@@ -9,7 +9,7 @@
 </head>
 <body>
 <main>
-	<?php require 'includes/header.php' ?>
+	<?php require 'includes/header.php' ?> // Arquivo onde se encontra o INPUT de busca, que deve ser observado.
 	<div id="informacoes">
 		<section>
 	<?php
