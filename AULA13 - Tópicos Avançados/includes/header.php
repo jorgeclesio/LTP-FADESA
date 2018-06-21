@@ -4,7 +4,7 @@
 		</div>	
 		<Div id="pesquisar">
 			<form action="buscar.php" method="GET">
-				<input type="text" name="busca" placeholder="Digite aqui..."> 
+				<input type="text" name="busca" name="busca" placeholder="Digite aqui..."> 
 				<button>Buscar</button>
 			</forM>
 		</diV>	
