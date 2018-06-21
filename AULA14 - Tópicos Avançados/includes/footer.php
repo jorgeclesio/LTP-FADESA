@@ -1,1 +1,0 @@
-	<footer>Rodapé</footer>
