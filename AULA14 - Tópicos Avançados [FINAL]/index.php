@@ -43,7 +43,6 @@
 		<?php } } else {echo "Olá, seja bem vindo!";}?>
 		</section>
 	</div>
-	
 	<div id="mapas">
 		<section><?php
 	$sql = "select * from municpiospa where id=$natural";
@@ -53,11 +52,9 @@
 		</iframe>
 	<?php } ?>
 		</section>
-
 		<section >Mapa 2</section>
 	</div>
 	<?php include 'includes/footer.php' ?>
-
 </main>
 
 </body>
