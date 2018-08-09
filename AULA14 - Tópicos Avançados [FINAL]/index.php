@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
 	<!-- Aula7 - inicial -->
@@ -13,11 +13,11 @@
 	<div id="informacoes">
 		<section>
 		<?php
-		if($_GET){
-		$id=$_GET['id'];
-		$sql="select * from aluno where id=$id";
-		$resultado= mysqli_query($conexao,$sql);
-		while ($aluno=mysqli_fetch_array($resultado)){
+		if($_GET){ //verifica se houve variável no link 
+			$id=$_GET['id']; //Se sim, pega o ID
+			$sql="select * from aluno where id=$id"; //faz a consulta de acordo o ID
+			$resultado= mysqli_query($conexao,$sql); //Executa a consulta
+			while ($aluno=mysqli_fetch_array($resultado)){ //Tranforma em um Array
 		?>
 		<table border="1px" width="" align="">
 			<tr>
@@ -40,21 +40,31 @@
 			</tr>
 		</table>
 		<a href="atualizar.php?id=<?php echo$id;?> ">Editar Aluno</a>
-		<?php } } else {echo "Olá, seja bem vindo!";}?>
+		<?php } 
+		} else 	{
+				echo "Olá, seja bem vindo!";
+				}
+		?>
 		</section>
-	</div>
+		</div>
+	
 	<div id="mapas">
 		<section><?php
+		if ($natural){ // Verificado se a variável foi iniciada para poder gerar o mapa.
 	$sql = "select * from municpiospa where id=$natural";
 	$cidade = mysqli_query($conexao,$sql);
 	while ($cdd=mysqli_fetch_array($cidade)){?>
 		<iframe height="150px" width="284px" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyABNrDJjpwNCq7_XkdRacEE83L-nAKMCfI&#10;&amp;q=<?php echo$cdd['nm_municip'];?>,PA&amp;zoom=5">
 		</iframe>
-	<?php } ?>
+			<?php 
+											} //Finaliza o Laço 
+					} //Finaliza o IF de verificação. 
+			?>
 		</section>
+
 		<section >Mapa 2</section>
 	</div>
 	<?php include 'includes/footer.php' ?>
-</main>
 
+</main>
 </body>
