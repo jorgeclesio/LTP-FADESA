@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>tabela de informação</title>
+
+	<style>
+
+		table{
+			background-color: rgb(33,30,20,0.3);
+			border-spacing: 4px;
+			width: 400px;
+			height: 100px;
+			text-align: center; 
+		}
+
+		body{
+			background-color:rgb(12,27,37,0.2);
+		}
+
+		td{
+			text-align: center;
+		}
+
+		h1{
+			text-align: center;
+			background-color:rgb(133,793,322,0.5);
+		}
+
+	</style>
+</head>
+<body>
+
+	<h1>Faça seu Cadastro!</h1>
+
+<table border="5px" align="center">
+	<form>
+	<tr>
+		<td><input type="text" name="nome" placeholder="Nome" /></td>
+		<td><input type="number" name="cpf" placeholder="C.P.F" required="required" /></td>
+	</tr>
+
+	<tr>
+		<td><input type="text" name="mae" placeholder="Nome da Mãe " /></td>
+		<td><input type="text" name="pai" placeholder="Nome do Pai" /></td>
+	</tr>
+
+	<tr>
+		<td><input type="email" name="email" title="E-mail" placeholder="E-mail" /></td>
+		<td><label for="M">Masculino</label>
+		<input id="M" type="radio" name="sexo" value="M">
+
+		<label for="F">Femenino</label>
+		<input id="F" type="radio" name="sexo" value="F"></td>
+	</tr>
+
+	<tr>
+		<td><input type="text" name="usuario" placeholder="Usuário" /></td>
+		<td><input type="password" name="senha" placeholder="Senha" /></td>
+	</tr>
+
+	<tr>
+		<td><select name="naturalidade">
+			<option value="">Parauapebas</option>
+			<option value="">Marabá</option>
+			<option value="">Canaã</option>
+			<option value="">Puta Vida</option>
+			<option value="">Xania</option>
+		</select></td>
+
+		<td><textarea name="" id="" cols="30" rows="10" placeholder="Escreva sua Mensagem."></textarea></td>
+	</tr>
+
+	<tr>
+		<td><input type="reset" value="Limpa"></td>
+		<td><input type="submit" value="Cadastrar"></td>
+	</tr>
+
+	</form>
+
+</table>
+
+</body>
+</html>
